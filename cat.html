@@ -1,32 +1,102 @@
 <!DOCTYPE html>
-<html>
-<head>
-<title>إحسان أليف لرعاية القطط</title>
-<link rel="icon" type="image/x-icon" href="icon.png">
-</head>
-<body>
+<html lang="ar">
 
-<img src="icon.png" alt="" width="300" height="300">
-<h1>إحسان أليف لرعاية القطط</h1>    
-<h2>ساهم معنا في توفير الغذاء والعلاج والمأوى للقطط المحتاجة</h2>
-<h3>القطط من الحيوانات الأليفة التي تحتاج إلى رعاية واهتمام, المساهمة في رعاية القطط وإطعامها تعكس روح الرحمة والإحسان التي حثنا عليها ديننا الحنيف, وقد قال النبي ﷺ  في كل كبدٍ رطبة أجر</h3>
+ <head>
+  <title>إحسان أليف لرعاية القطط</title>
+  <meta charset="UTF-8"></meta>
+  <link rel="icon" type="image/x-icon" href="icon.png">
+ </head>
 
-<form action="#" method="post">
-<label for="fname">الأسم الكامل:</label><br>
-<input type="text" id="fname" name="fname"><br><br>
+  <body>
+     <main>
+    <section>
+    <img src="icon.png" alt="" width="300" height="300"> <!--Logo-->
+    <h1>إحسان أليف لرعاية القطط</h1>
+    <h2>ساهم معنا في توفير الغذاء والعلاج والمأوى للقطط المحتاجة</h2>
+    <h3>القطط من الحيوانات الأليفة التي تحتاج إلى رعاية واهتمام, المساهمة في رعاية القطط وإطعامها تعكس روح الرحمة والإحسان التي حثنا عليها ديننا الحنيف, وقد قال النبي ﷺ  في كل كبدٍ رطبة أجر</h3>
 
-<label for="type">نوع التبرع:</label>
-  <select id="type" name="type">
-    <option value="غذاء">غذاء</option>
-    <option value="علاج طبي">علاج طبي</option>
-    <option value="مأوى للقطط">مأوى للقطط</option>
-  </select>
-<p>ملاحظات:</p>
-  <textarea name="notes" rows="10" cols="30"></textarea><br><br>
-  <button type="submit">إرسال</button>
-  </form>
-<img src="cat2.jpg" alt="" width="300" height="300">
-<img src="cat3.jpg" alt="" width="300" height="300">
+    <p>اضغط هنا لقراءة <a href="https://i.pinimg.com/736x/1d/3f/eb/1d3feba0595527cb96f189f07cc37115.jpg" target="_blank">حديث عن الإحسان بالحيوان</a></p>
+    </section>
 
-</body>
+    <section>
+        <fieldset>
+        <legend>ادخل بياناتك للتبرع</legend>
+        <h3>*يجب ادخال جميع البيانات*</h3>
+        <ul>
+            <li>الأسم الكامل</li>
+            <li>نوع التبرع</li>
+            <li>مبلغ التبرع</li>
+        </ul><br>
+
+    <form action="#" method="post">
+        <fieldset>
+            <legend>الأسم الكامل:</legend><br>
+            <input type="text" id="fname" name="fname" placeholder="الأسم الكامل" required><br><br>
+        </fieldset><br>
+
+        <fieldset>
+            <legend>نوع التبرع :</legend><br><br>
+            <input type="checkbox" id="food" name="cat" value="food" checked>
+            <label for="food">غذاء</label><br>
+            <input type="checkbox" id="medical" name="cat" value="medical">
+            <label for="medical">علاج طبي</label><br>
+            <input type="checkbox" id="home" name="cat" value="home">
+            <label for="home">مأوى للقطط</label><br><br>
+            </fieldset><br>
+
+        <fieldset>
+            <legend>مبلغ التبرع:</legend>
+            <select id="amount" name="number">
+            <option value="100">ريال 100</option>
+            <option value="300">300 ريال</option>
+            <option value="500">500 ريال</option>
+            </select>
+        </fieldset><br>
+
+        <fieldset>
+            <legend>طريقة الدفع:</legend><br><br>
+            <input type="radio" id="card" name="catt" value="card">
+            <label for="card">بطاقة مدى / VISA</label><br>
+            <input type="radio" id="applepay" name="catt" value="applepay" checked>
+            <label for="applepay">Apple Pay</label><br>
+            <input type="radio" id="stcpay" name="catt" value="stcpay">
+            <label for="stcpay">STC Pay</label><br>
+            <input type="radio" id="bank" name="catt" value="bank">
+            <label for="bank">تحويل بنكي</label><br><br>
+        </fieldset><br>
+
+        <p>ملاحظات:</p>
+            <textarea name="notes" rows="10" cols="30"></textarea><br><br>
+            <button type="submit">إرسال</button>
+    </form>
+        </fieldset>
+
+    </section>
+
+    <section>
+
+        <h3>قائمة القطط المحتاجة:</h3>
+        <ol>
+            <li><em>قطتين بحاجة للغذاء</em></li>
+            <li><em>قطة بحاجة لعلاج طبي</em></li>
+            <li><em>اربع قطط بحاجة لمأوى</em></li>
+        </ol>
+     </section>
+
+
+     <section>
+     <figure><a href="cat1.jpg"><img src="cat1.jpg" alt="" width="300" height="300">
+      </a><figcaption><strong>غذاء</strong> للقطط</figcaption></figure> <!--cat photo-->
+     <figure><a href="cat6.jpg"><img src="cat6.jpg" alt="" width="300" height="300">
+      </a><figcaption><strong>علاج طبي</strong> للقطط</figcaption></figure> <!--cat photo-->
+     <figure><a href="cat5.jpg"><img src="cat5.jpg" alt="" width="300" height="300">
+      </a><figcaption><strong>مأوى</strong> للقطط</figcaption></figure> <!--cat photo-->
+     </section>
+
+     </main>
+   <footer>
+       <p><a href="mailto:info@ihsan-aleef.org">info@ihsan-aleef.org</a> تواصل معنا عبر البريد الإلكتروني </p>
+   </footer>
+
+  </body>
 </html>
